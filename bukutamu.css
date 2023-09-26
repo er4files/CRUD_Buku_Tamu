@@ -1,0 +1,38 @@
+/* Gaya untuk elemen <body> */
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Gaya untuk elemen <h1> */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #853c29;
+    text-align: center;
+    text-shadow: 2px 2px 2px #DDD;
+  }
+  
+  /* Gaya untuk elemen <a> */
+  a {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #c05e46;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  a:hover {
+    text-decoration:none;
+    background-color: #853c29;
+  }

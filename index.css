@@ -1,0 +1,70 @@
+/* Gaya umum */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	width: 80%;
+	height: 300px;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #ccc inset;
+	width: 100%;
+}
+
+a {
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #c05e46;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	float: right;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+a:hover {
+	text-decoration:none;
+	background-color: #853c29;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	border: none;
+	background-color: #c05e46;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	float: right;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover{
+	background-color: #853c29;
+}
